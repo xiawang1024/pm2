@@ -21,6 +21,7 @@ module.exports = {
 
   deploy: {
     production: {
+      key: '~/.ssh/google_rsa',
       user: 'xiawang1024',
       host: '35.194.208.201',
       ref: 'origin/master',
