@@ -26,7 +26,7 @@ module.exports = {
       host: '35.194.208.201',
       ref: 'origin/master',
       repo: 'git@github.com:xiawang1024/pm2.git',
-      path: '/home/xiawang1024/work',
+      path: '/home/xiawang1024/work/pm2',
       'post-deploy':
         'npm install && pm2 reload ecosystem.config.js --env production'
     }
